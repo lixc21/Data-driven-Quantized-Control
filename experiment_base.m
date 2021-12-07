@@ -27,9 +27,6 @@ disp(eig(A)')
 disp('The rank of Qk is:')
 disp(rank([B A*B A*A*B]))
 
-%%
-c=0;
-% while 1
 % Data length
 T=20;
 % Second norm bound of noise: ||w||^2_2<=w_max
